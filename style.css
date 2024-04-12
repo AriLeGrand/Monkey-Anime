@@ -1,0 +1,43 @@
+body {
+  background-color: #424549;
+}
+
+.navbar {
+  background-color: #7289da;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-link {
+  color: #424549;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.nav-link.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#carouselExampleCaptions {
+  width: auto;
+  height: auto;
+}
+
+.white .active a {
+  background-color: #7289da;
+}
+
+.white .active a,
+.white .active a:hover {
+  background-color: white;
+}
+
